@@ -6,6 +6,11 @@ let arr = [
   { id: 3, name: "karen", age: "19", profession: "admin" },
 ];
 
+let brr = [
+  { id: 5, name: "abc", age: "22", profession: "developer" },
+  { id: 6, name: "pqr", age: "33", profession: "developer" },
+  { id: 7, name: "mno", age: "44", profession: "admin" },
+];
 function PrintDeveloperswithMap() {
   console.log(arr[0]);
   console.log(arr[1]);
@@ -23,12 +28,15 @@ function addData() {
     profession:"intern"
   }
   arr.push(employee);
+  console.log(arr);
 }
 
 function removeAdmin() {
-  //Write your code here
+  arr.splice(2,1);
+  console.log(arr);
 }
 
 function concatenateArray() {
-  //Write your code here
+  array1 = arr.concat(brr);
+  console.log(array1);
 }

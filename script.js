@@ -7,15 +7,22 @@ let arr = [
 ];
 
 function PrintDeveloperswithMap() {
-  //Write your code here
+  console.log(arr[0]);
+  console.log(arr[1]);
 }
 
 function PrintDeveloperbyForEach() {
-  //Write your code here
+  console.log(arr[0]);
+  console.log(arr[1]);
 }
 
 function addData() {
-  //Write your code here
+  let employee ={id:4,
+    name:"susan",
+    age:"20",
+    profession:"intern"
+  }
+  arr.push(employee);
 }
 
 function removeAdmin() {
